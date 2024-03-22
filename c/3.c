@@ -7,6 +7,15 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int hour;
+    scanf("%d", &hour);
+    if(hour<12&& hour>=0)
+    {
+        printf("AM");
+    }
+    else if(hour>=12 && hour<=23)
+    {
+        printf("PM");
+    }
     return 0;
 }

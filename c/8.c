@@ -7,6 +7,18 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+    int n;
+    int sum=0, multi=1;
+    scanf("%d", &n);
+    if(n>=13)
+    {
+        return 0;
+    }
+    for(int i=1; i<=n; i++)
+    {
+        sum+=i;
+        multi*=i;
+    }
+    printf("%d\n%d", sum, multi);
     return 0;
 }
