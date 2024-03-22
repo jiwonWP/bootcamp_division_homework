@@ -17,7 +17,7 @@ int main() {
         printf("C");
     else if(score>=60 && score<70)
         printf("D");
-    else
+    else if(score<60)
         printf("F");
     return 0;
 }
